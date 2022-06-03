@@ -26,7 +26,7 @@ namespace beans
             }else if (cash > 500)
             {
                 double beans3 = cash - 500;
-                Console.WriteLine("You had more than enough for your beans. \n Heres your change " + beans3);
+                Console.WriteLine("You had more than enough for your beans. \n Heres your change " + beans3 + "$");
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
             }
